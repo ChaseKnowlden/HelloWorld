@@ -48,7 +48,7 @@ task jacocoTestReport(type : JacocoReport, dependsOn : ['testDebugUnitTest']) {
     getSourceDirectories().setFrom(files(coverageSourceDirs))
     getExecutionData().setFrom(fileTree(
             dir     : "$buildDir",
-            include : [ 'jacoco/testDebugUnitTest.exec', 'outputs/code_coverage/debugAndroidTest/connected/*coverage.ec' ]
+            include : [ 'jacoco/testDebugUnitTest.exec', 'outputs/code_coverage/debugAndroidTest/connected/Pixel_2_XL_API_29(AVD) - 10-coverage.ec' ]
     ))
     doFirst {
         files([javaClasses, kotlinClasses]).getFiles().each { file ->
@@ -69,7 +69,7 @@ task jacocoTestReportLocal(type : JacocoReport, dependsOn : ['testDebugUnitTest'
     getSourceDirectories().setFrom(files(coverageSourceDirs))
     getExecutionData().setFrom(fileTree(
             dir     : "$buildDir",
-            include : [ 'jacoco/testDebugUnitTest.exec', 'outputs/code_coverage/debugAndroidTest/connected/*coverage.ec' ]
+            include : [ 'jacoco/testDebugUnitTest.exec', 'outputs/code_coverage/debugAndroidTest/connected/Pixel_2_XL_API_29(AVD) - 10-coverage.ec' ]
     ))
     doFirst {
         files([javaClasses, kotlinClasses]).getFiles().each { file ->
