@@ -1,3 +1,3 @@
 # Test Application
 
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/ChaseKnowlden/HelloWorld)
+[![<ORG_NAME>](https://circleci.com/gh/ChaseKnowlden/HelloWorld.svg?style=svg)](https://github.com/ChaseKnowlden/HelloWorld)
